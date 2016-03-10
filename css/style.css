@@ -5,50 +5,12 @@ body {
   font-family: 'Source Sans Pro', sans-serif; }
 
 .container-fluid {
-  position: relative;
-  min-height: 100vh; }
+  //position: relative;
+  //min-height: 100vh; }
 
 #tapper {
-  width: 100%;
-  height: 100%;
-}
-
-.item {
-  text-align: center;
-  height: 33.33vh;
-  line-height: 33.33vh;
-  font-size: 2rem; }
-  @media (min-width: 600px) {
-    .item {
-      font-size: 4rem; } }
-
-#meal {
-  display: block; }
-
-#side {
-  display: none; }
-
-#drink {
-  display: none; }
-
-#results {
-  display: none;
-  position: relative;
-  padding: 20px;
   min-height: 100vh;
-  font-size: 2rem; }
-  #results ul {
-    list-style-type: none;
-    padding: 0; }
-    #results ul li span {
-      font-family: 'Source Code Pro', monospace; }
-    #results ul li + li {
-      margin-top: 5px; }
-  #results #ok {
-    font-size: 2.5rem;
-    padding: 10px 15px;
-    display: inline-block;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    z-index: 10; }
+  line-height: 100vh;
+  font-size: 3rem;
+  text-align: center;
+}
