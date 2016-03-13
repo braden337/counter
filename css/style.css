@@ -1,12 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Code+Pro);
+
 body {
   background-color: #73888c;
   color: #455254;
-  font-family: 'Source Sans Pro', sans-serif; }
-
-.container-fluid {
-  //position: relative;
-  //min-height: 100vh; }
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
 #tapper {
   min-height: 100vh;
